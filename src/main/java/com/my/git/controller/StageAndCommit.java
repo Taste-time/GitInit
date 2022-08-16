@@ -9,4 +9,7 @@ package com.my.git.controller;
  */
 
 public class StageAndCommit {
+    public static void find(){
+        System.out.println("test");
+    }
 }
