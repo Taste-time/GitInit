@@ -26,4 +26,9 @@ public class UserController {
         System.out.println("echoGit");
         return "echoGit";
     }
+    @GetMapping("/echoGit1")
+    public String echoGit1(){
+        System.out.println("echoGit1");
+        return "echoGit1";
+    }
 }
